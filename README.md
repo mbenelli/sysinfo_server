@@ -3,6 +3,12 @@
 A simple server for retrieving system bootup duration. The returned
 duration is expressed in seconds.
 
+The `build` command:
+
+	$ go build .
+
+creates the executable `sysinfo_server`.
+
 Usage example:
 
 	$ ./sysinfo_server &
